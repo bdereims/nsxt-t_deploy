@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+source ./install_nsx.env 
 
 function print_help()
 {
@@ -286,8 +287,8 @@ if [ "$SMALL_MEMORY_OVA" == "1" ]; then
   reduce_ova_memory_all
 fi
 
-#install_nsx_manager
-#install_nsx_controller
+install_nsx_manager
+install_nsx_controller
 install_nsx_edge
 
 

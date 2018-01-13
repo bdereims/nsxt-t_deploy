@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+source ./install_nsx.env
+source ./configure_nsx.env
 
 # Default values
 NETWORK_MANAGER_USERNAME="admin"

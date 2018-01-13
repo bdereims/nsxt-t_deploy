@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+source ./install_nsx.env
 
 function configure_nsx_cluster() {
 
